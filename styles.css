@@ -4,11 +4,16 @@ body {
     background-color: #FFFEB7;
     margin: 0;
     height: 100vh;
-    width: 100vw;
     font-family: 'Gugi', cursive;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
+}
+h1 {
+    position: relative;
+    bottom: 50px;
+
 }
 @keyframes animatebutton {
     0% {
@@ -21,11 +26,12 @@ body {
 .key {
     display:flex;
     justify-content: center;
+    flex-direction: column;
     background-color: #D3D3D3;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgb(0 0 0 / 20%);
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
 }
 .key-animate {
     animation: animatebutton 0.06s ease-in-out;
@@ -34,4 +40,7 @@ body {
     align-self: center;
     text-align: center;
     word-wrap: break-word;
+}
+.key-code {
+    align-self: center;
 }
