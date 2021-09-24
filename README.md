@@ -1,5 +1,5 @@
 # Keyboard-KeyCodes
-A mini project to find code values of a keys of a keyboard
+A mini project to find code values of key in a keyboard
 
 ## How it works
 
